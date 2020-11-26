@@ -354,7 +354,7 @@ function _getMembersForItem (type) {
           addComputedStats = true;
         }
       }
-
+      console.log("hi");
       if (req.query.search) {
         // Creates a RegExp expression when querying for profile.name
         const escapedSearch = escapeRegExp(req.query.search);
